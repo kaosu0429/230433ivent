@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>合成大西瓜</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style-mobile.css">
+  </head>
+  <body style="margin: 0; background: #ddd;" align="center">
+    <div id="canvasDiv" style="width:100%;height:100%;">
+      <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+      <div id="block-Box" style="display:block;width:100%;height:100%;"></div>
+    </div>
+    <div id="loadingText" style="width:100%;display: none;text-align:center;position:absolute;top:45%;z-index:2;font-size:20px;color:#f99f0a">
+      loading......0%
+    </div>
+    <div id="loadingImg" style="top:45%;width: 100%;position:absolute; ">
+      <img src="res/loading.gif" width="7%" height="7%" />
+    </div>
+    <script src="src/settings.js" charset="utf-8"></script>
+  </body>
+</html>
